@@ -24,3 +24,7 @@ Links úteis:
 
 ## Projeto #03 - Meu portifólio
 O meu portifólio ainda está em desenvolvimento, mas em breve será adicionado alguns detalhes sobre o projeto aqui.
+
+## Projeto #04 - Player de Música
+Esse projeto é de uma série de desafios promovidos pela Rocketseat chamado #boraCodar.
+O primeiro projeto é um player de música
