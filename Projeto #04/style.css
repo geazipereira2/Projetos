@@ -14,11 +14,15 @@ body {
 
 #app {
     display: grid;
+    grid-template-columns: max-content max-content;
     grid-template-areas: 
     'A B'
     'A C';
 
     gap: 32px;
+
+    place-content: center;
+    height: 100vh;
 }
 
 #player-1 {
