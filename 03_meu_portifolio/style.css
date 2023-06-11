@@ -1,0 +1,90 @@
+@font-face {
+    font-family: CreatoDisplayLight;
+    src: url('fonts/CreatoDisplay-Light.otf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.elementos {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: CreatoDisplaylight;
+    background-color: #3F9DE7;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.rows {
+    cursor: pointer;
+}
+
+.span {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.botaoNav {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .elementos {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        margin: 0;
+        padding: 20px;
+        width: 35%;
+        height: 100%;
+        transform: translateX(-100%);
+    }
+
+    .botaoNav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+
+    .barra-lateral {
+        transform: translateX(0px);
+    }
+    
+    .linha-0 {
+        transform: rotate(45deg) translate(4.5px, 12px);
+    }
+    
+    .linha-1 {
+        transform: scale(0);
+    }
+    
+    .linha-2 {
+        transform: rotate(-45deg) translateY(-7.5px);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+   
+a:hover {
+    color: white;
+}
