@@ -28,3 +28,14 @@ O meu portifólio ainda está em desenvolvimento, mas em breve será adicionado 
 ## Projeto #04 - Player de Música
 Esse projeto é de uma série de desafios promovidos pela Rocketseat chamado #boraCodar.
 O primeiro projeto é um player de música
+
+## Projeto #05 - Jogo SIMPLES do Mário com HTML, CSS e JS puro.
+Esse projeto é um pequeno estudo de HTML, CSS e Javascript puro, com bastante comentários (não reparem tanto, é só pra estudo).
+Esse projeto consiste em montar um jogo que é uma mistura de Super Mário e Flappy Bird utilizando os conceitos de:
+- [Conceitos do HTML]
+- [Conceitos do CSS]
+- [Conceitos do Javascript]
+
+Links Úteis:
+- [Como criar um jogo SIMPLES usando JavaScript e HTML | JavaScript para iniciantes - Tutorial](https://youtu.be/r9buAwVBDhA)
+- [GitHub do Criador do Projeto](https://github.com/manualdodev)
