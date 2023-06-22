@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /*Essas duas propriedades só funcionam no MacOS*/
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%; /*Essa medida deixa a fonte como 10px*/
+}
+
+body {
+    font-size: 1.6rem; /*Sendo assim, 1rem equivale a 10px*/
+    background: #1F2937;
+}
+
+form {
+    border: 1px solid red;
+    padding: 2.4rem;
+    max-width: 48rem;
+    margin: auto; /*O margin auto centraliza a div pois preenche tanto o margin left, quanto o margin right*/
+}
+
+#credit-card {
+    width: 32.8rem;
+    height: 21.2rem;
+}
+
+#credit-card > div {
+    width: inherit;
+    height: inherit;
+
+    position: absolute;
+}
+
+#credit-card .front {
+    background: url(assets/cc-front.png) no-repeat;
+}
+
+#credit-card .back {
+    background: url(assets/cc-back.png) no-repeat;
+}
