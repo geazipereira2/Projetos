@@ -24,7 +24,11 @@
             </div>
             <div class="input-wrapper">
                 <label for="cc-holder">Nome do titular</label>
-                <input id="cc-holder" type="text" placeholder="Nome como está no cartão">
+                <input id="cc-holder" type="text" placeholder="Nome como está no cartão" required>
+                <div class="warning">
+                    <img src="assets/warning.png" alt="icone de alerta">
+                    Nome do titular é obrigatório 
+                </div>
             </div>
             <div class="col-2 flex">
                 <div class="input-wrapper">
@@ -32,11 +36,15 @@
                     <input id="cc-validity" type="text" placeholder="mm/aa">
                 </div>
                 <label for="input-wrapper">
-                    <label class="flex help" for="cc-cvv">CVV</label>
+                    <label class="flex help" for="cc-cvv">CVV<img src="assets/question.png" alt="icone de ajuda" title="Esse número está, geralmente, nas costas do seu cartão."></label>
                     <input id="cc-cvv" type="text" placeholder="***">
                 </label>
             </div>
         </section>
+        <section class="info-security flex">
+            <img src="assets/shieldCheck.png" alt="icone de segurança">Seus dados estão seguros
+        </section>
+        <button>Adicionar Cartão</button>
     </form>
 </body>
 </html>
