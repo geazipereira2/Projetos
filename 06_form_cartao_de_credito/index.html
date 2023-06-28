@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Cartão de Crédito</title>
+    <script src="https://unpkg.com/imask"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,5 +47,14 @@
         </section>
         <button>Adicionar Cartão</button>
     </form>
+    <script>
+        IMask(document.querySelector('#cc-cvv'), {
+            mask: '0000'
+        });
+
+        IMask(document.querySelector('#cc-number'), {
+            mask: '0000 0000 0000 0000'
+        })
+    </script>
 </body>
 </html>
