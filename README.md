@@ -1,41 +1,148 @@
 # projetos repo
+
 Nesse repositório você irá encontrar alguns projetos feitos em diversas linguagens de programação.
 
-# Projetos em destaque:
+<br>
 
-📌 [Projeto #03 - Meu portfólio](#projeto-03---meu-portifólio)
+### Destaques
 
+📌 [Projeto #04 - Um player de música](#projeto-04)
 
-📌 [Projeto #02 - Landing Page Food Peek](#projeto-02---landing-page-food-peek)
+📌 [Projeto #06 - Formulário de Cartão de Crédito](#projeto-06)
 
-## Projeto #01 - Jogo da Cobrinha
-Esse projeto é um estudo da biblioteca *pygame*, em que eu montei o classico jogo da cobrinha:
+<br>
+<br>
 
-<img src="resultados/game-snake.gif" width="250">
-
-## Projeto #02 - Landing Page Food Peek
-Esse projeto é um estudo de HTML5, CSS3 e JavaScript. Que teve como objetivo fazer uma landing page responsiva.
-
-<img src="resultados/landing-page-foodpeek.gif">
-
-Links úteis:
-- [Criando Landing Page Responsiva do Zero || Html, Css e JavaScript](https://www.youtube.com/watch?v=G8rUCF3BY6s&ab_channel=DEVenvolvente)
-- [GitHub do Criador do Projeto](https://github.com/DevEnvolvente0190/LandingPage-Responsiva)
-
-## Projeto #03 - Meu portifólio
-O meu portifólio ainda está em desenvolvimento, mas em breve será adicionado alguns detalhes sobre o projeto aqui.
-
-## Projeto #04 - Player de Música
-Esse projeto é de uma série de desafios promovidos pela Rocketseat chamado #boraCodar.
-O primeiro projeto é um player de música
-
-## Projeto #05 - Jogo SIMPLES do Mário com HTML, CSS e JS puro.
-Esse projeto é um pequeno estudo de HTML, CSS e Javascript puro, com bastante comentários (não reparem tanto, é só pra estudo).
-Esse projeto consiste em montar um jogo que é uma mistura de Super Mário e Flappy Bird utilizando os conceitos de:
-- [Conceitos do HTML]
-- [Conceitos do CSS]
-- [Conceitos do Javascript]
-
-Links Úteis:
-- [Como criar um jogo SIMPLES usando JavaScript e HTML | JavaScript para iniciantes - Tutorial](https://youtu.be/r9buAwVBDhA)
-- [GitHub do Criador do Projeto](https://github.com/manualdodev)
+<table>
+    <thead>
+        <tr>
+            <th align="center">
+                <img width="20" height="1"> 
+                <p>
+                    <small>#</small>
+                </p>
+            </th>
+            <th align="center">
+                <img width="300" height="1"> 
+                <p> 
+                    <small>
+                        NOME/DESCRIÇÃO
+                    </small>
+                </p>
+            </th>
+          <th align="center">
+                <img width="300" height="1"> 
+                <p> 
+                    <small>
+                        LINGUAGEM,  
+                        BIBLIOTECA ou  
+                        FRAMEWORK
+                    </small>
+                </p>
+            </th>
+            <th align="center">
+                <img width="201" height="1">
+                <p align="center"> 
+                    <small>
+                    PREVIEW
+                    </small>
+                </p>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td id="projeto-01">01</td>
+            <td>
+              <h3>Jogo da Cobrinha</h3>
+              <p>O classico jogo da cobrinha, feito em Python, com a biblioteca <em>pygame</em>, somente para estudo.</p>
+            </td>
+            <td>
+              <p>Pyhton, <em>pygame</em></p>
+            </td>
+            <td align="center">
+              <img width="300px" src="resultados/game-snake.gif"/>
+            </td>
+        </tr>
+        <tr>
+            <td id="projeto-02">02</td>
+            <td>
+              <h3>Landing Page Food Peek</h3>
+              <p>Uma landing page responsiva, com side-bar mobile.</p>
+              <p>Links úteis:</p>
+              <a href="https://www.youtube.com/watch?v=G8rUCF3BY6s&ab_channel=DEVenvolvente">
+                <p>Vídeo do Projeto</p>
+              </a>
+              <a href="https://github.com/DevEnvolvente0190/LandingPage-Responsiva">
+                <p>GitHub do Criador do Projeto</p>
+              </a>
+            </td>
+            <td>
+              <p>HTML, CSS e Javascript puro</p>
+            </td>
+            <td align="center">
+              <img width="300px" src="resultados/resultado-landing-page-food-peek.png"/>
+            </td>
+        </tr>
+        <tr>
+            <td id="projeto-03">03</td>
+            <td>
+              <h3>Meu portifólio</h3>
+              <p>O meu portifólio ainda está em desenvolvimento, mas em breve será adicionado alguns detalhes sobre o projeto aqui.</p>
+            </td>
+            <td>
+              <p></p>
+            </td>
+            <td align="center">
+              <img width="300px" src=""/>
+            </td>
+        </tr>
+        <tr>
+            <td id="projeto-04">04</td>
+            <td>
+              <h3>Player de Música</h3>
+              <p>Esse projeto é de uma série de desafios promovidos pela Rocketseat chamado #boraCodar.</p>
+              <p>O primeiro projeto dessa série é um player de música responsivo, que no caso, se trata desse projeto.</p>
+            </td>
+            <td>
+              <p>HTML e CSS puros</p>
+            </td>
+            <td align="center">
+             <img width="300px" src="resultados/resultado-player-de-musica.png"/>
+            </td>
+        </tr>
+        <tr>
+            <td id="projeto-05">05</td>
+            <td>
+              <h3>Jogo simples do Mário</h3>
+              <p>Esse projeto consiste em montar um jogo que é uma mistura de Super Mário e Flappy Bird.</p>
+              <p>Links úteis:</p>
+              <a href="https://youtu.be/r9buAwVBDhA">
+                <p>Vídeo do Projeto</p>
+              </a>
+              <a href="https://github.com/manualdodev">
+                <p>GitHub do Criador do Projeto</p>
+              </a>
+            </td>
+            <td>
+              <p>HTML, CSS e Javascript puro</p>
+            </td>
+            <td align="center">
+             <img width="300px" src=""/>
+            </td>
+        <tr>
+            <td id="projeto-06">06</td>
+            <td>
+              <h3>Formulário de Cartão de Crédito</h3>
+              <p>Tal projeto se trata de uma série de desafios semanais promovidos pela Rocketseat, chamado #boraCodar.</p>
+              <p>Esse é o vigésimo primeiro desafio dessa série, e se trata de um <strong>Formulário de Cartão de Crédito com efeito de "flip" no cartão</strong>.</p>
+            </td>
+            <td>
+              HTML e CSS puros
+            </td>
+            <td align="center" >
+              <img width="300px" src="resultados/resultado-formulario-cartao-de-credito.png"/>
+            </td>
+        </tr>
+    </tbody>
+</table>     
